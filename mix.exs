@@ -28,6 +28,8 @@ defmodule Sqs.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:ex_aws, "~> 1.1"}
+    ]
   end
 end
