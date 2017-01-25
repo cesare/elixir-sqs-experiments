@@ -29,6 +29,7 @@ defmodule Sqs.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
+      {:configparser_ex, "~> 0.2.1"},
       {:ex_aws, "~> 1.1"}
     ]
   end
