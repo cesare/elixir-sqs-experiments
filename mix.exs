@@ -16,7 +16,7 @@ defmodule Sqs.Mixfile do
   def application do
     # Specify extra applications you'll use from Erlang/Elixir
     [
-      applications: [:ex_aws, :hackney, :poison],
+      applications: [:ex_aws, :hackney, :poison, :sweet_xml],
       extra_applications: [:logger]
     ]
   end
@@ -35,7 +35,8 @@ defmodule Sqs.Mixfile do
       {:configparser_ex, "~> 0.2.1"},
       {:ex_aws, "~> 1.1"},
       {:hackney, "~> 1.6"},
-      {:poison, "~> 2.0"}
+      {:poison, "~> 2.0"},
+      {:sweet_xml, "~> 0.6.4"}
     ]
   end
 end
